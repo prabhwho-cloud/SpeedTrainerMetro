@@ -11,7 +11,7 @@ Built natively with the **Web Audio API**, this app avoids the rhythmic drift co
 
 ## 🚀 Live Demo
 You can view and use the live application directly in your browser here:  
-👉 **[Insert Your GitHub Pages Link Here]** *(e.g., https://yourusername.github.io/repository-name/)*
+👉 **https://prabhwho-cloud.github.io/SpeedTrainerMetro/Speed%20Trainer%20Metronome.html** 
 
 ---
 
