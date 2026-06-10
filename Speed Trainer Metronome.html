@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incremental Metronome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="metronome-container">
+        <h1>Speed Trainer Metronome</h1>
+        
+        <div class="bpm-controls-wrapper">
+            <button id="minus-btn" class="adjust-btn">-</button>
+            <div class="bpm-display">
+                <span id="bpm-number">110</span> <span class="bpm-text">BPM</span>
+            </div>
+            <button id="plus-btn" class="adjust-btn">+</button>
+        </div>
+
+        <div class="controls">
+            <label for="interval-select">Increase BPM every:</label>
+            <select id="interval-select">
+                <option value="3">3 Seconds</option>
+                <option value="5" selected>5 Seconds</option>
+                <option value="7">7 Seconds</option>
+                <option value="10">10 Seconds</option>
+                <option value="15">15 Seconds</option>
+                <option value="20">20 Seconds</option>
+            </select>
+        </div>
+
+        <button id="start-btn">START</button>
+        
+        <div class="next-increase">
+            Next speed bump in: <span id="countdown">5</span>s
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e24;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.metronome-container {
+    background-color: #2a2a35;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+    width: 380px; /* Slightly wider to fit the buttons nicely */
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    color: #4caf50;
+}
+
+.bpm-controls-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.adjust-btn {
+    background-color: #3a3a4a;
+    color: white;
+    font-size: 1.5rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.adjust-btn:hover {
+    background-color: #4a4a5a;
+}
+
+.bpm-display {
+    min-width: 140px;
+}
+
+#bpm-number {
+    font-size: 5rem;
+    font-weight: bold;
+    display: block;
+    line-height: 1;
+}
+
+.bpm-text {
+    font-size: 1.2rem;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+.controls {
+    margin: 25px 0;
+}
+
+select {
+    background-color: #3a3a4a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#start-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+#start-btn:hover {
+    background-color: #45a049;
+}
+
+#start-btn.playing {
+    background-color: #f44336;
+}
+
+#start-btn.playing:hover {
+    background-color: #da190b;
+}
+
+.next-increase {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
